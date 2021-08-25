@@ -35,12 +35,22 @@
 		</license>
 	</licenses>
 
-	  <scm>
+	<scm>
         <connection>scm:git:https://github.com/InseeFr/Lunatic-Model.git</connection>
         <developerConnection>scm:git:https://github.com/InseeFr/Lunatic-Model.git</developerConnection>
         <url>https://github.com/InseeFr/Lunatic-Model/tree/${project.scm.tag}</url>
         <tag>master</tag>
     </scm>
+
+	<issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/InseeFr/Lunatic-Model/issues</url>
+    </issueManagement>
+
+    <ciManagement>
+		<system>Github Worflow</system>
+		<url>https://github.com/InseeFr/Lunatic-Model/actions</url>
+	</ciManagement>
 
 	<dependencies>
 		<dependency>
